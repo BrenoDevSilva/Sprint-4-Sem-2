@@ -1,0 +1,28 @@
+$color_1: #333;
+$color_2: #fff;
+$background-color_1: #007bff;
+$background-color_2: #0056b3;
+
+/* Estilo para o título do número aleatório */
+/* Estilo para o botão de geração de número aleatório */
+/* Estilo de hover para o botão */
+div {
+	text-align: center;
+	margin-top: 50px;
+}
+h1 {
+	font-size: 36px;
+	color: $color_1;
+}
+button {
+	font-size: 18px;
+	background-color: $background-color_1;
+	color: $color_2;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	&:hover {
+		background-color: $background-color_2;
+	}
+}

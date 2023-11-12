@@ -1,0 +1,71 @@
+$font-color_1: rgb(212, 208, 208);
+$font-color_2: rgb(0, 0, 0);
+$background-color_1: #007bff;
+$background-color_2: #0056b3;
+$background-color_3: linear-gradient(to left,#42275a, #734b6d);
+
+
+
+.envolverr {
+	background-image: $background-color_3;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.container h1 {
+	margin-bottom: 0.5rem;
+	color: $font-color_1;
+}
+.container p {
+	font-size: 18px;
+	margin-bottom: 4rem;
+	color: $font-color_2;
+}
+.form-label {
+	font-size: 18px;
+	font-weight: bold;
+	color: $font-color_2;
+}
+.form-control {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	color: $font-color_1;
+	background-color: transparent;
+}
+textarea.form-control {
+	resize: vertical;
+	
+}
+.btn-primary {
+	background-color: $background-color_1;
+	color: $font-color_1;
+	font-size: 18px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	&:hover {
+		background-color: $background-color_2;
+	}
+}
+
+#nome_form {
+	background-color: rgba(255, 255, 255, 0.136);
+}
+
+#email_form {
+	background-color: rgba(255, 255, 255, 0.136);
+}
+
+#opinião {
+	background-color: rgba(255, 255, 255, 0.136);
+}

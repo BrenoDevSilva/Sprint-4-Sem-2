@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* Estilo para o título do número aleatório */
+/* Estilo para o botão de geração de número aleatório */
+/* Estilo de hover para o botão */
+div {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+button {
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #0056b3;
+}/*# sourceMappingURL=numero.css.map */
